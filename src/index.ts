@@ -15,7 +15,7 @@ function reverseString (string: string): string {
   if (string === '') {
     return string
   } else {
-    return reverseString(string.slice(1, 10)) + string[0]
+    return reverseString(string.slice(1, string.length)) + string[0]
   }
 }
 
